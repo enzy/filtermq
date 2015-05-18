@@ -1,0 +1,13 @@
+{
+  "name": "filtermq",
+  "version": "1.0.0",
+  "description": "Filters out media queries from CSS for given breakpoint",
+  "main": "index.js",
+  "bin": "./index.js",
+  "author": "Matěj Šimek <email@matejsimek.cz> (www.matejsimek.cz)",
+  "license": "MIT",
+  "dependencies": {
+    "css": "^2.2.0",
+    "css-mediaquery": "^0.1.2"
+  }
+}
