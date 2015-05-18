@@ -41,6 +41,6 @@ ast.stylesheet.rules = ast.stylesheet.rules.reduce(function(rules, rule){
 	return rules
 }, [])
 
-var result = css.stringify(ast, { compress: true })
+var result = css.stringify(ast)
 
 fs.writeFileSync(output, result)
